@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>SETEC Torque Integrity Program — TIP®</title>
+<meta name="description" content="TIP® — Programa integrado de gestão da integridade, manutenção, testes, certificação e confiabilidade de equipamentos hidráulicos de torque. Setec Marine Service." />
+<meta property="og:title" content="SETEC Torque Integrity Program — TIP®" />
+<meta property="og:description" content="A integridade dos seus equipamentos de torque começa antes da falha." />
+<meta property="og:image" content="assets_gerados/imagens/og.jpg" />
+<meta property="og:type" content="website" />
+<link rel="icon" type="image/png" href="logos/favicon.png?v=3" />
+<link rel="apple-touch-icon" href="logos/favicon.png?v=3" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=3" />
+<link rel="stylesheet" href="css/enhance.css?v=3" />
+</head>
+<body>
+
+<!-- ===== Chrome fixo ===== -->
+<div class="progress" aria-hidden="true"><span class="progress__fill"></span></div>
+
+<header class="topbar" id="top">
+  <nav class="nav" id="nav" aria-label="Navegação por cenas">
+    <button class="nav__item" data-target="3">O Programa</button>
+    <button class="nav__item" data-target="4">A Jornada</button>
+    <button class="nav__item" data-target="5">Bancada STTB-01</button>
+    <button class="nav__item" data-target="8">Resultados</button>
+    <button class="nav__item" data-target="10">Investimento</button>
+  </nav>
+</header>
+
+<aside class="rail" id="rail" aria-hidden="true"></aside>
+
+<main id="world">
+
+  <!-- ============ CENA 1 — HERO (split: texto | vídeo) ============ -->
+  <section class="scene scene--hero" id="cena-1" data-scene="1" data-label="Hero">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--hero"></div>
+      <div class="hero-split">
+        <div class="hero-split__text">
+          <p class="eyebrow" data-client-eyebrow>SETEC TORQUE INTEGRITY PROGRAM · TIP®</p>
+          <h1 class="hero__title">A integridade dos seus equipamentos de torque começa <span class="ink-copper">antes da falha.</span></h1>
+          <p class="hero__sub">Programa integrado de gestão da integridade, manutenção, testes, certificação e confiabilidade de equipamentos hidráulicos de torque.</p>
+          <p class="hero__client" data-client-badge></p>
+        </div>
+        <div class="hero-split__media">
+          <div class="hero-media">
+            <video class="hero-media__video" src="assets_gerados/videos/hero.mp4"
+                   poster="assets_gerados/imagens/poster_hero_new.jpg"
+                   autoplay muted playsinline preload="auto"
+                   tabindex="-1" disablepictureinpicture disableremoteplayback
+                   controlslist="nodownload nofullscreen noremoteplayback noplaybackrate"></video>
+          </div>
+          <p class="hero-media__cap"><b>CRP</b> · ferramenta hidráulica de torque subsea</p>
+        </div>
+      </div>
+      <div class="scrollcue"><span>role ou use ↓</span><i></i></div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 2 — O PROBLEMA ============ -->
+  <section class="scene scene--problem" id="cena-2" data-scene="2" data-label="O problema" style="--accent:#8a3b2a">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--dark"></div>
+      <div class="scene__scrim scene__scrim--full"></div>
+      <div class="problem-orbs" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="scene__content scene__content--center">
+        <p class="eyebrow eyebrow--warn">O modelo reativo</p>
+        <h2 class="scene__title">No modelo tradicional, o equipamento só volta pra manutenção <span class="ink-warn">depois que falha.</span></h2>
+        <ul class="painwords" data-painwords>
+          <li>interrupção de operação</li>
+          <li>mobilização cara</li>
+          <li>risco às equipes</li>
+          <li>perda de produtividade</li>
+          <li>custos imprevisíveis</li>
+          <li>sem histórico</li>
+          <li>baixa rastreabilidade</li>
+        </ul>
+        <svg class="failline" viewBox="0 0 600 160" preserveAspectRatio="none" aria-hidden="true">
+          <path class="failline__ecg" d="M0,80 L120,80 L150,78 L170,82 L210,80 L240,40 L260,120 L285,80 L420,80 L470,74 L520,60 L560,120 L590,150" />
+          <circle class="failline__dot" r="6" cx="590" cy="150" />
+        </svg>
+        <p class="failtag" data-failtag>FALHA NÃO PROGRAMADA</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 3 — A VIRADA ============ -->
+  <section class="scene scene--turn" id="cena-3" data-scene="3" data-label="A virada">
+    <div class="scene__pin">
+      <div class="scene__bg"></div>
+      <div class="turn-split">
+        <div class="turn-split__text">
+          <p class="eyebrow">A virada · conceito TIP®</p>
+          <h2 class="scene__title">Deixe de consertar. Passe a <span class="ink-copper">gerenciar a integridade.</span></h2>
+          <p class="scene__body">Asset Integrity Management — cada equipamento vira um ativo estratégico, com histórico, plano preventivo e rastreabilidade.</p>
+          <ul class="pillars">
+            <li data-reveal><span class="pillars__k">01</span> Segurança Operacional</li>
+            <li data-reveal><span class="pillars__k">02</span> Engenharia Aplicada</li>
+            <li data-reveal><span class="pillars__k">03</span> Gestão de Ativos</li>
+            <li data-reveal><span class="pillars__k">04</span> Melhoria Contínua</li>
+          </ul>
+          <div class="infochips">
+            <button class="infochip" data-modal="modal-sobre">Sobre a GS</button>
+            <button class="infochip" data-modal="modal-objetivos">Objetivos do programa</button>
+          </div>
+        </div>
+        <div class="turn-split__viz" aria-hidden="true">
+          <div class="turn-card turn-card--old">
+            <span class="turn-card__tag">Reativo</span>
+            <svg viewBox="0 0 120 60"><polyline class="turn-line turn-line--down" points="4,20 30,24 55,30 80,44 116,54"/></svg>
+            <span class="turn-card__cap">custo sobe na falha</span>
+          </div>
+          <div class="turn-arrow" data-turn-arrow>⟶</div>
+          <div class="turn-card turn-card--new">
+            <span class="turn-card__tag">TIP®</span>
+            <svg viewBox="0 0 120 60"><polyline class="turn-line turn-line--up" points="4,54 30,42 55,30 80,20 116,10"/></svg>
+            <span class="turn-card__cap">confiabilidade sobe</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 4 — JORNADA DO ATIVO (carrossel manual) ============ -->
+  <section class="scene scene--video scene--journey" id="cena-4" data-scene="4" data-label="Jornada do ativo"
+           data-video="assets_gerados/videos/v4.mp4"
+           data-poster="assets_gerados/imagens/poster_04_jornada.jpg">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--dim"><img class="scene__poster" src="assets_gerados/imagens/poster_04_jornada.jpg" alt="" /></div>
+      <div class="scene__scrim scene__scrim--bottom"></div>
+      <div class="journey__head">
+        <p class="eyebrow">A jornada do ativo · coração do TIP®</p>
+        <h2 class="scene__title">Um fluxo padronizado, do <span class="ink-copper">recebimento</span> à <span class="ink-copper">expedição.</span></h2>
+        <div class="infochips">
+          <button class="infochip" data-modal="modal-centro">Metodologia completa</button>
+          <button class="infochip" data-modal="modal-instrumentacao">Instrumentação &amp; equipe</button>
+          <button class="infochip" data-modal="modal-operacional">Modelo operacional</button>
+        </div>
+      </div>
+      <div class="journey__viewport" data-journey-vp>
+        <ol class="journey__track" data-journey-track>
+          <li class="stage"><span class="stage__n">01</span><h3>Recebimento</h3><p>O ativo entra no Centro Técnico e é identificado.</p></li>
+          <li class="stage"><span class="stage__n">02</span><h3>Cadastro</h3><p>Identificação individual e abertura do histórico digital.</p></li>
+          <li class="stage"><span class="stage__n">03</span><h3>Inspeção Inicial</h3><p>Classificação de entrada: Classe A, B, C ou D.</p></li>
+          <li class="stage"><span class="stage__n">04</span><h3>Desmontagem</h3><p>Abertura controlada e registro de cada componente.</p></li>
+          <li class="stage"><span class="stage__n">05</span><h3>Limpeza Técnica</h3><p>Preparação para inspeção dimensional precisa.</p></li>
+          <li class="stage"><span class="stage__n">06</span><h3>Inspeção de Componentes</h3><p>Paquímetros, micrômetros e relógios calibrados.</p></li>
+          <li class="stage"><span class="stage__n">07</span><h3>Montagem</h3><p>Substituição de itens de desgaste e remontagem.</p></li>
+          <li class="stage"><span class="stage__n">08</span><h3>Testes Hidráulicos</h3><p>Pressão e estanqueidade sob condição real.</p></li>
+          <li class="stage"><span class="stage__n">09</span><h3>Certificação</h3><p>Emissão do certificado de desempenho do ativo.</p></li>
+          <li class="stage stage--out"><span class="stage__n">10</span><h3>Expedição</h3><p>Ativo pronto, rastreável, de volta à operação.</p></li>
+        </ol>
+      </div>
+      <div class="journey__controls">
+        <button class="journey__btn" data-journey-prev aria-label="Etapa anterior">‹</button>
+        <div class="journey__progress"><span data-journey-fill></span></div>
+        <button class="journey__btn" data-journey-next aria-label="Próxima etapa">›</button>
+        <span class="journey__hint">arraste ou use <kbd>←</kbd> <kbd>→</kbd></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 5 — BANCADA STTB-01 (branco, split vídeo | conteúdo) ============ -->
+  <section class="scene scene--bench" id="cena-5" data-scene="5" data-label="Bancada STTB-01">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--solid"></div>
+      <div class="bench2 bench2--split">
+        <!-- coluna vídeo -->
+        <div class="bench2__media">
+          <video class="bench2__video" src="assets_gerados/videos/bench.mp4"
+                 poster="assets_gerados/imagens/poster_bench_new.jpg"
+                 autoplay muted loop playsinline preload="metadata"
+                 tabindex="-1" disablepictureinpicture disableremoteplayback
+                 controlslist="nodownload nofullscreen noremoteplayback noplaybackrate"></video>
+          <div class="bench2__readouts">
+            <div class="readout"><span class="readout__lbl">PRESSÃO</span><b class="readout__val"><span data-count="1500" data-suffix=" bar">0</span></b></div>
+            <div class="readout readout--copper"><span class="readout__lbl">TORQUE</span><b class="readout__val"><span data-count="4560" data-suffix=" N.m">0</span></b></div>
+            <div class="readout readout--live"><span class="readout__lbl">MONITOR</span><b class="readout__val">ao vivo</b></div>
+          </div>
+          <ul class="specs">
+            <li><b>20.000</b><span>N.m torque máx.</span></li>
+            <li><b>3000</b><span>bar pressão máx.</span></li>
+            <li><b>±0,25%</b><span>FS precisão</span></li>
+            <li><b>≥100</b><span>Hz aquisição</span></li>
+            <li><b>380</b><span>VAC · 60 Hz</span></li>
+            <li><b>1200</b><span>kg aprox.</span></li>
+          </ul>
+        </div>
+
+        <!-- coluna conteúdo: título + acordeões exatos do infográfico -->
+        <div class="bench2__panels js-scroll">
+          <p class="eyebrow">Produto-herói · STTB-01 · Smart Torque Test Bench</p>
+          <h2 class="scene__title">O banco que mede o <span class="ink-copper">torque REAL</span> aplicado pela ferramenta.</h2>
+          <p class="bench2__intro">Para validação e certificação de ferramentas hidráulicas de torque — cada componente monitorado, cada ensaio rastreável.</p>
+          <p class="bench2__kicker">Componentes &amp; sistema <span>· abra um item</span></p>
+          <div class="accordion" data-accordion>
+            <details class="acc" name="bench-acc" open>
+              <summary>Power Pack Hidráulico<i class="acc__chev"></i></summary>
+              <div class="acc__body">Fornece a pressão necessária para operação da ferramenta.</div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Ferramenta de Torque<i class="acc__chev"></i></summary>
+              <div class="acc__body">Conectada ao sistema hidráulico para aplicação de torque.</div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Transdutor de Torque<i class="acc__chev"></i></summary>
+              <div class="acc__body">Mede o torque aplicado com alta precisão.<span class="acc__spec">Precisão ±0,25% FS (fundo de escala) · Faixa 0 a 20.000 N.m</span></div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Bloco de Reação<i class="acc__chev"></i></summary>
+              <div class="acc__body">Absorve o torque gerado pela ferramenta.</div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Painel Elétrico<i class="acc__chev"></i></summary>
+              <div class="acc__body">Comandos e proteção do sistema.</div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Sistema de Aquisição de Dados (DAQ)<i class="acc__chev"></i></summary>
+              <div class="acc__body">Coleta e registra os dados de pressão, torque, temperatura e tempo.<span class="acc__spec">Frequência ≥ 100 Hz · Canais: Torque, Pressão, Temperatura, Tempo</span></div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Instrumentação<i class="acc__chev"></i></summary>
+              <div class="acc__body">Instrumentos calibrados que garantem a medição.
+                <span class="acc__spec">Manômetro Digital · 0,25% FS · 0 a 3000 bar</span>
+                <span class="acc__spec">Transdutor de Pressão · 0,25% FS · 0 a 3000 bar</span>
+                <span class="acc__spec">Sensor de Temperatura · −40 °C a 150 °C</span>
+              </div>
+            </details>
+            <details class="acc" name="bench-acc">
+              <summary>Software de Ensaio<i class="acc__chev"></i></summary>
+              <div class="acc__body">
+                <span class="acc__spec">Curva Pressão × Torque em tempo real</span>
+                <span class="acc__spec">Registro automático dos ensaios</span>
+                <span class="acc__spec">Relatório técnico automático · Gráfico de repetibilidade</span>
+                <span class="acc__spec">Emissão de certificado de desempenho · Armazenamento do histórico</span>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 6 — CONFIABILIDADE (ciclo redesenhado) ============ -->
+  <section class="scene scene--reliability" id="cena-6" data-scene="6" data-label="Confiabilidade">
+    <div class="scene__pin">
+      <div class="scene__bg"></div>
+      <div class="rel-split">
+        <div class="rel-split__text">
+          <p class="eyebrow">Engenharia de confiabilidade</p>
+          <h2 class="scene__title">Cada falha vira <span class="ink-copper">aprendizado.</span></h2>
+          <p class="scene__body">Transformamos dados de operação em decisões de engenharia: análise de causa raiz, banco de dados de falhas e indicadores de vida útil.</p>
+          <ul class="rel-tags" data-reveal>
+            <li>Causa raiz</li><li>Banco de falhas</li><li>MTBF / MTTR</li><li>Engenharia preventiva</li>
+          </ul>
+          <div class="infochips">
+            <button class="infochip" data-modal="modal-confiabilidade">Análise de falhas &amp; causa raiz</button>
+          </div>
+        </div>
+        <div class="cycle" data-cycle aria-hidden="true">
+          <svg viewBox="0 0 340 340" class="cycle__svg">
+            <circle class="cycle__track" cx="170" cy="170" r="132"/>
+            <circle class="cycle__ring" cx="170" cy="170" r="132"/>
+          </svg>
+          <div class="cycle__core"><span>Melhoria</span><b>Contínua</b></div>
+          <ul class="cycle__nodes">
+            <li><i>01</i>Coleta de Dados</li>
+            <li><i>02</i>Inspeção</li>
+            <li><i>03</i>Análise de Falhas</li>
+            <li><i>04</i>Causa Raiz</li>
+            <li><i>05</i>Ação</li>
+            <li><i>06</i>Monitoramento</li>
+            <li><i>07</i>+ Confiabilidade</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 7 — ECOSSISTEMA DIGITAL ============ -->
+  <section class="scene" id="cena-7" data-scene="7" data-label="Ecossistema digital"
+           data-video="assets_gerados/videos/v7.mp4"
+           data-poster="assets_gerados/imagens/poster_07_digital.jpg">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--dim"><img class="scene__poster" src="assets_gerados/imagens/poster_07_digital.jpg" alt="" /></div>
+      <div class="scene__scrim scene__scrim--left"></div>
+      <div class="scene__content">
+        <p class="eyebrow">Ecossistema digital</p>
+        <h2 class="scene__title">Rastreabilidade total, <span class="ink-copper">na palma da mão.</span></h2>
+        <p class="scene__body">QR Code individual · Portal do Cliente GS · Dashboard Executivo · App mobile.</p>
+        <div class="infochips">
+          <button class="infochip" data-modal="modal-dashboard">Dashboard Executivo</button>
+          <button class="infochip" data-modal="modal-historico">Histórico do ativo</button>
+          <button class="infochip" data-modal="modal-sla">Controle de SLA</button>
+          <button class="infochip" data-modal="modal-app">App mobile</button>
+        </div>
+      </div>
+      <div class="assetcard" data-assetcard>
+        <div class="assetcard__qr"><div class="qr"></div><span class="qr__beam"></span></div>
+        <div class="assetcard__screen">
+          <div class="assetcard__row"><span>Ativo</span><b data-asset="id"></b></div>
+          <div class="assetcard__row"><span>Série</span><b data-asset="serie"></b></div>
+          <div class="assetcard__row"><span>Base</span><b data-asset="base"></b></div>
+          <div class="assetcard__row"><span>Disponibilidade</span><b class="ink-ok" data-asset="disp"></b></div>
+          <div class="assetcard__row"><span>Horas de operação</span><b data-asset="horas"></b></div>
+          <div class="assetcard__row"><span>Próxima manutenção</span><b data-asset="proxima"></b></div>
+          <div class="assetcard__badge">CERTIFICADO ✓</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 8 — RESULTADOS (count-up) ============ -->
+  <section class="scene scene--data" id="cena-8" data-scene="8" data-label="Resultados">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--grid"></div>
+      <div class="scene__scrim scene__scrim--full soft"></div>
+      <div class="data">
+        <div class="data__head">
+          <p class="eyebrow">Resultados · scorecard executivo</p>
+          <h2 class="scene__title">Gestão orientada por <span class="ink-copper">desempenho.</span></h2>
+        </div>
+        <ul class="kpis" data-kpis>
+          <li class="kpi"><b class="kpi__v"><span data-count="99.2" data-dec="1" data-suffix="%">0</span></b><span class="kpi__l">Disponibilidade</span><i class="kpi__bar" style="--f:99"></i></li>
+          <li class="kpi"><b class="kpi__v"><span data-count="98.7" data-dec="1" data-suffix="%">0</span></b><span class="kpi__l">SLA cumprido <span class="ac">(Acordo de Nível de Serviço)</span></span><i class="kpi__bar" style="--f:98"></i></li>
+          <li class="kpi"><b class="kpi__v"><span data-count="3.1" data-dec="1" data-suffix=" d">0</span></b><span class="kpi__l">MTTR <span class="ac">(Tempo Médio de Reparo)</span></span><i class="kpi__bar" style="--f:80"></i></li>
+          <li class="kpi"><b class="kpi__v"><span data-count="0.8" data-dec="1" data-suffix="%">0</span></b><span class="kpi__l">Retrabalho</span><i class="kpi__bar" style="--f:12"></i></li>
+          <li class="kpi"><b class="kpi__v"><span data-count="100" data-suffix="%">0</span></b><span class="kpi__l">Certificados no prazo</span><i class="kpi__bar" style="--f:100"></i></li>
+          <li class="kpi"><b class="kpi__v"><span data-count="0">0</span></b><span class="kpi__l">NC críticas <span class="ac">(Não Conformidade)</span></span><i class="kpi__bar kpi__bar--ok" style="--f:100"></i></li>
+        </ul>
+        <p class="data__foot">MTBF <span class="ac">(Tempo Médio Entre Falhas)</span> em tendência <b class="ink-ok">+14%</b> · Aprovação na 1ª inspeção ≥95% · Satisfação 98%</p>
+        <div class="infochips">
+          <button class="infochip" data-modal="modal-kpis">Todos os KPIs &amp; SLAs</button>
+          <button class="infochip" data-modal="modal-qualidade">Sistema de Qualidade</button>
+          <button class="infochip" data-modal="modal-governanca">Governança &amp; RACI</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 9 — TRADICIONAL × TIP® ============ -->
+  <section class="scene scene--compare" id="cena-9" data-scene="9" data-label="Tradicional × TIP®">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--solid"></div>
+      <div class="compare">
+        <div class="compare__head">
+          <p class="eyebrow">Comparativo de valor</p>
+          <h2 class="scene__title">Do reparo pontual à <span class="ink-copper">gestão contínua do ativo.</span></h2>
+        </div>
+        <div class="ctable" data-ctable>
+          <div class="ctable__col ctable__col--old">
+            <span class="ctable__cap">Modelo Tradicional</span>
+            <ul>
+              <li>Manutenção corretiva</li>
+              <li>Histórico limitado</li>
+              <li>Sem indicadores</li>
+              <li>Custos imprevisíveis</li>
+              <li>Baixa rastreabilidade</li>
+            </ul>
+          </div>
+          <div class="ctable__col ctable__col--tip">
+            <span class="ctable__cap">Programa TIP®</span>
+            <ul>
+              <li>Gestão contínua da integridade</li>
+              <li>Histórico técnico permanente</li>
+              <li>KPIs e SLAs auditáveis</li>
+              <li>Previsibilidade orçamentária</li>
+              <li>Rastreabilidade digital (QR)</li>
+            </ul>
+          </div>
+        </div>
+        <p class="compare__foot">Estrutura interna equivalente ≈ <b class="ink-copper" data-intern></b>/mês.</p>
+        <p class="compare__note">Considerando encargos trabalhistas e benefícios associados, o custo de estrutura interna pode chegar a <b>~80% a mais</b> — até <b class="ink-copper">R$ 144 mil/mês</b>.</p>
+        <div class="infochips">
+          <button class="infochip" data-modal="modal-beneficios">Benefícios para a Baker Hughes</button>
+          <button class="infochip" data-modal="modal-interno">Custo real com encargos</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 10 — O INVESTIMENTO (slider) ============ -->
+  <section class="scene scene--invest" id="cena-10" data-scene="10" data-label="O investimento">
+    <div class="scene__pin">
+      <div class="scene__bg scene__bg--solid"></div>
+      <div class="invest">
+        <div class="invest__head">
+          <p class="eyebrow">O investimento</p>
+          <h2 class="scene__title"><b class="ink-copper" data-per-asset></b> por ativo/mês. Mínimo <b class="ink-copper">10 ativos.</b></h2>
+          <div class="infochips">
+            <button class="infochip" data-modal="modal-contempla">O que o investimento contempla</button>
+            <button class="infochip" data-modal="modal-nao-contemplado">Não contemplado</button>
+          </div>
+        </div>
+        <div class="invest__cubes" data-cubes aria-hidden="true"></div>
+        <div class="invest__calc">
+          <div class="invest__count"><b data-invest="qtd">10</b><span>ativos sob gestão</span></div>
+          <input class="invest__slider" type="range" min="10" max="50" value="10" step="1" data-invest-slider aria-label="Número de ativos" />
+          <div class="invest__scale"><span>10</span><span>20</span><span>30</span><span>40</span><span>50 · capacidade</span></div>
+          <div class="invest__totals">
+            <div class="invest__total"><span>Mensal</span><b data-invest="mes"></b></div>
+            <div class="invest__total invest__total--year"><span>Anual</span><b data-invest="ano"></b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENA 11 — FECHO / CTA ============ -->
+  <section class="scene scene--video scene--close" id="cena-11" data-scene="11" data-label="Fecho"
+           data-video="assets_gerados/videos/v11.mp4"
+           data-poster="assets_gerados/imagens/poster_11_fecho.jpg">
+    <div class="scene__pin">
+      <div class="scene__bg"><img class="scene__poster" src="assets_gerados/imagens/poster_11_fecho.jpg" alt="" /></div>
+      <div class="scene__scrim scene__scrim--full"></div>
+      <div class="close">
+        <div class="close__seal" aria-hidden="true"><span>TIP®</span></div>
+        <h2 class="close__title">Do recebimento até o retorno à operação, a GS cuida da <span class="ink-copper">integridade de cada um dos seus ativos.</span></h2>
+        <img src="logos/GS_logo_completa_clara_transparente.png" alt="Grupo SETEC" class="close__logo" />
+        <p class="close__site" data-site></p>
+      </div>
+      <div class="site-credit">
+        <div class="credit-popover" id="credit-popover" aria-hidden="true">
+          <a href="https://wa.me/5521971146102" target="_blank" rel="noopener noreferrer" class="credit-popover__link credit-popover__link--wa" title="WhatsApp (+55 21 97114-6102)" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.4 15.1L2 22l5.05-1.32A9.9 9.9 0 1 0 12.04 2zm0 1.8a8.1 8.1 0 0 1 6.9 12.36l-.2.32.86 3.14-3.22-.85-.31.18A8.1 8.1 0 1 1 12.04 3.8zm-3.1 4.02c-.15 0-.4.06-.6.28-.2.22-.78.76-.78 1.86s.8 2.16.92 2.31c.11.15 1.57 2.5 3.9 3.4 1.94.76 2.33.61 2.75.57.42-.04 1.36-.55 1.55-1.09.19-.54.19-1 .13-1.1-.06-.09-.2-.15-.42-.26-.22-.11-1.36-.67-1.57-.75-.21-.08-.36-.11-.51.11-.15.22-.58.75-.71.9-.13.15-.26.17-.48.06-.22-.11-.94-.35-1.79-1.1-.66-.59-1.11-1.32-1.24-1.54-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.26-.7-1.72-.18-.44-.37-.38-.51-.39z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/amorimads/" target="_blank" rel="noopener noreferrer" class="credit-popover__link credit-popover__link--ig" title="Instagram (@amorimads)" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/rhenanamorim/" target="_blank" rel="noopener noreferrer" class="credit-popover__link credit-popover__link--in" title="LinkedIn (/in/rhenanamorim)" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.8-1.95 3.7-1.95 3.96 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.26-.02-2.9-1.77-2.9-1.77 0-2.04 1.38-2.04 2.8V21H9z"/></svg>
+          </a>
+        </div>
+        <p class="site-credit__text">Desenvolvido por <button type="button" class="site-credit__name" id="credit-trigger" aria-expanded="false" aria-controls="credit-popover">Rhenan Amorim</button></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================================
+     CONTEÚDO DOS MODAIS (proposta completa) — abertos por [data-modal]
+     ============================================================================ -->
+
+<div class="modal-def" id="modal-sobre" hidden>
+  <span class="m-eyebrow">Capítulo 1 · Quem somos</span>
+  <h3>Setec Marine Service — engenharia de integridade de ativos</h3>
+  <p class="lead">Empresa brasileira especializada em engenharia de manutenção, inspeção, certificação e gestão da integridade de equipamentos dos segmentos offshore, óleo &amp; gás, naval, industrial e energia.</p>
+  <p>Referência nacional em serviços técnicos especializados, unindo engenharia, tecnologia, rastreabilidade e confiabilidade operacional. Corpo técnico altamente qualificado, infraestrutura própria, instrumentos calibrados e procedimentos conforme normas nacionais e internacionais.</p>
+  <h4>Nossos 4 pilares</h4>
+  <ul class="cols2">
+    <li>Segurança Operacional</li><li>Engenharia Aplicada</li>
+    <li>Gestão de Ativos</li><li>Melhoria Contínua</li>
+  </ul>
+  <h4>Nossa experiência — especialidades</h4>
+  <ul class="cols2">
+    <li>Equipamentos hidráulicos de torque</li><li>Sistemas hidráulicos de alta pressão</li>
+    <li>Thrusters</li><li>Bombas FiFi</li><li>Redutoras</li><li>Guinchos</li>
+    <li>Guindastes offshore</li><li>Movimentação de cargas</li>
+    <li>Equipamentos de elevação</li><li>Sistemas mecânicos rotativos</li>
+  </ul>
+  <p>Atuamos também em recuperação, overhaul, inspeção dimensional, ensaios funcionais, testes hidráulicos e certificação técnica destes equipamentos.</p>
+  <h4>Nossa filosofia · Asset Integrity Management</h4>
+  <p>Manutenção não é apenas reparo. Cada equipamento é tratado como um ativo estratégico: conhecer todo o histórico, identificar tendências de falha, reduzir intervenções corretivas, aumentar disponibilidade, controlar indicadores e fornecer informações para a tomada de decisão. Foi com essa filosofia que nasceu o <strong>SETEC Torque Integrity Program (TIP®)</strong>.</p>
+</div>
+
+<div class="modal-def" id="modal-objetivos" hidden>
+  <span class="m-eyebrow">Objetivos do programa</span>
+  <h3>Sete objetivos estratégicos do TIP®</h3>
+  <div class="m-grid">
+    <div class="m-card"><h5>Disponibilidade Operacional</h5><span>Elevados índices de disponibilidade durante toda a vigência contratual.</span></div>
+    <div class="m-card"><h5>Confiabilidade</h5><span>Aumentar a confiabilidade operacional com manutenção preventiva estruturada.</span></div>
+    <div class="m-card"><h5>Segurança</h5><span>Reduzir riscos com inspeções sistemáticas, testes funcionais e certificações periódicas.</span></div>
+    <div class="m-card"><h5>Rastreabilidade</h5><span>Histórico completo de cada equipamento, da entrada à devolução.</span></div>
+    <div class="m-card"><h5>Gestão dos Ativos</h5><span>Transformar equipamentos individuais em ativos gerenciados por indicadores técnicos.</span></div>
+    <div class="m-card"><h5>Padronização</h5><span>Uniformizar procedimentos de inspeção, desmontagem, montagem, testes e certificação.</span></div>
+    <div class="m-card"><h5>Melhoria Contínua</h5><span>Processo permanente de análise de falhas para elevar a confiabilidade.</span></div>
+  </div>
+  <h4>O que cada ativo passa a ter</h4>
+  <ul class="cols2">
+    <li>Histórico técnico completo</li><li>Identificação individual</li>
+    <li>Rastreabilidade digital (QR Code)</li><li>Plano preventivo e corretivo</li>
+    <li>Indicadores de desempenho</li><li>Certificação técnica</li>
+    <li>Controle documental</li><li>Gestão da vida útil</li>
+  </ul>
+</div>
+
+<div class="modal-def" id="modal-centro" hidden>
+  <span class="m-eyebrow">Capítulos 2 e 3 · Centro Técnico &amp; Metodologia</span>
+  <h3>O fluxo completo do ativo, área por área</h3>
+  <p class="lead">Cada equipamento segue obrigatoriamente um fluxo padronizado, documentado e rastreável, monitorado eletronicamente pelo sistema de gestão.</p>
+  <div class="m-flow"><span>Recebimento</span><i>→</i><span>Cadastro</span><i>→</i><span>Inspeção Inicial</span><i>→</i><span>Desmontagem</span><i>→</i><span>Limpeza</span><i>→</i><span>Inspeção Componentes</span><i>→</i><span>Avaliação</span><i>→</i><span>Substituição</span><i>→</i><span>Montagem</span><i>→</i><span>Testes Hidráulicos</span><i>→</i><span>Testes Funcionais</span><i>→</i><span>Certificação</span><i>→</i><span>Controle de Qualidade</span><i>→</i><span>Expedição</span></div>
+
+  <h4>Recebimento</h4>
+  <ul><li>Conferência documental e física</li><li>Registro fotográfico inicial</li><li>Identificação e cadastro no sistema</li><li>Emissão da Ordem de Serviço + etiquetagem</li><li>Número único de rastreabilidade</li></ul>
+  <h4>Cadastro &amp; identificação do ativo</h4>
+  <ul class="cols2"><li>Código interno Setec</li><li>Identificação do cliente</li><li>Fabricante e modelo</li><li>Número de série</li><li>Capacidade operacional</li><li>Pressão de trabalho</li><li>Data de fabricação e de entrada</li><li>Ordem de Serviço e responsável</li></ul>
+  <h4>Inspeção Técnica Inicial</h4>
+  <ul class="cols2"><li>Inspeção visual (trincas, corrosão, vazamentos, deformações)</li><li>Inspeção dimensional (paquímetros, micrômetros, relógios)</li><li>Avaliação hidráulica (vazamentos, conexões, mangueiras)</li><li>Avaliação mecânica (folgas, desgaste, acionamento)</li></ul>
+  <h4>Classificação de entrada</h4>
+  <div class="m-grid">
+    <div class="m-card"><h5>Classe A</h5><span>Apto para manutenção preventiva.</span></div>
+    <div class="m-card"><h5>Classe B</h5><span>Necessita substituição de componentes de desgaste.</span></div>
+    <div class="m-card"><h5>Classe C</h5><span>Necessita manutenção corretiva.</span></div>
+    <div class="m-card"><h5>Classe D</h5><span>Necessita avaliação de engenharia antes da continuidade.</span></div>
+  </div>
+  <h4>Desmontagem &amp; Limpeza Técnica</h4>
+  <ul class="cols2"><li>Desmontagem integral por subconjuntos</li><li>Identificação de peças críticas e reutilizáveis</li><li>Limpeza química / mecânica</li><li>Desengraxe e secagem controlada</li></ul>
+  <h4>Inspeção dos Componentes</h4>
+  <ul class="cols2"><li>Desgaste, corrosão, fissuras, ovalização</li><li>Fadiga do material e marcas de impacto/superaquecimento</li><li>Condições dimensionais</li><li>Classificação: Aprovado · Aprovado c/ recomendação · Reprovado</li></ul>
+  <h4>Substituição, Montagem &amp; Testes</h4>
+  <ul class="cols2"><li>Troca de O-rings, retentores, vedações, mancais, molas</li><li>Montagem por sequência e torques especificados</li><li>Testes funcionais (acionamento, estanqueidade, resposta)</li><li>Testes hidráulicos na bancada STTB-01 (pressão, carga simulada)</li></ul>
+  <h4>Controle de Qualidade, Certificação &amp; Expedição</h4>
+  <ul class="cols2"><li>Inspeção final independente</li><li>Certificado técnico + relatório de inspeção</li><li>Atualização do QR Code e do histórico</li><li>Conferência, embalagem, registro de saída e liberação</li></ul>
+</div>
+
+<div class="modal-def" id="modal-instrumentacao" hidden>
+  <span class="m-eyebrow">Capítulo 2 · Instrumentação, bancada, segurança e equipe</span>
+  <h3>Infraestrutura técnica do Centro Técnico</h3>
+  <h4>Instrumentação calibrada e rastreada</h4>
+  <ul class="cols2"><li>Paquímetros digitais</li><li>Micrômetros</li><li>Relógios comparadores</li><li>Torquímetros calibrados</li><li>Manômetros calibrados</li><li>Bombas hidráulicas de teste</li><li>Instrumentos de medição dimensional</li><li>Ferramentas especiais de montagem</li></ul>
+  <p>Todos os certificados de calibração permanecem disponíveis para auditorias.</p>
+  <h4>Bancada Hidráulica de Testes</h4>
+  <ul class="cols2"><li>Simulação das condições reais de operação</li><li>Controle preciso da pressão hidráulica</li><li>Monitoramento do desempenho operacional</li><li>Testes de vedação</li><li>Avaliação da repetibilidade</li><li>Verificação da estabilidade operacional</li></ul>
+  <h4>Segurança Operacional</h4>
+  <ul class="cols2"><li>Equipamentos de Proteção Individual (EPIs)</li><li>Ferramentas inspecionadas</li><li>Procedimentos de bloqueio quando aplicáveis</li><li>Checklists de segurança</li><li>Inspeções periódicas dos equipamentos de teste</li></ul>
+  <h4>Equipe Técnica</h4>
+  <ul class="cols2"><li>Engenheiro Responsável Técnico</li><li>Supervisor de Manutenção</li><li>Técnicos Mecânicos Especializados</li><li>Inspetores Técnicos</li><li>Analista de Qualidade</li><li>Técnico de Documentação</li><li>Planejamento e Controle da Manutenção (PCM)</li></ul>
+</div>
+
+<div class="modal-def" id="modal-operacional" hidden>
+  <span class="m-eyebrow">Capítulo 5 · Modelo operacional</span>
+  <h3>Um programa contínuo, planejado e controlado</h3>
+  <p class="lead">Mais do que executar manutenções, a Setec gerencia os ativos de forma integrada — com processos padronizados, planejamento, indicadores e melhoria contínua.</p>
+  <h4>Planejamento e Controle da Manutenção (PCM)</h4>
+  <ul class="cols2"><li>Programar as intervenções</li><li>Acompanhar os prazos</li><li>Controlar Ordens de Serviço</li><li>Monitorar indicadores</li><li>Gerenciar prioridades</li><li>Emitir relatórios gerenciais</li></ul>
+  <p>O PCM atua como elo entre a operação da Setec e os representantes da Baker Hughes.</p>
+
+  <hr />
+
+  <h4>Modalidades de Manutenção</h4>
+
+  <div class="m-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
+    <div class="m-card">
+      <h5>1. Manutenção Mensal / Retorno de Embarque</h5>
+      <p>Realização de inspeções periódicas com o objetivo de identificar desgastes prematuros, garantir a disponibilidade operacional e preservar a confiabilidade dos equipamentos.</p>
+      <strong style="color: var(--copper); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin: 10px 0 6px;">Escopo:</strong>
+      <ul>
+        <li>Inspeção visual completa</li>
+        <li>Verificação de vazamentos</li>
+        <li>Limpeza técnica</li>
+        <li>Verificação de mangueiras e conexões</li>
+        <li>Inspeção dos engates rápidos</li>
+        <li>Verificação do funcionamento hidráulico</li>
+        <li>Lubrificação dos componentes</li>
+        <li>Atualização do histórico do equipamento</li>
+        <li>Emissão de relatório técnico</li>
+      </ul>
+    </div>
+
+    <div class="m-card">
+      <h5>2. Manutenção de Retorno de Projeto</h5>
+      <p>Executada sempre que os equipamentos retornarem das operações em campo, garantindo sua avaliação antes de novo emprego operacional.</p>
+      <strong style="color: var(--copper); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin: 10px 0 6px;">Escopo:</strong>
+      <ul>
+        <li>Recebimento e identificação</li>
+        <li>Inspeção detalhada</li>
+        <li>Descontaminação e limpeza</li>
+        <li>Desmontagem parcial, quando necessário</li>
+        <li>Avaliação dos componentes sujeitos a desgaste</li>
+        <li>Testes funcionais</li>
+        <li>Substituição de componentes de desgaste, quando aplicável</li>
+        <li>Atualização do histórico técnico</li>
+        <li>Liberação para estoque operacional</li>
+      </ul>
+    </div>
+
+    <div class="m-card">
+      <h5>3. Manutenção Trimestral (ou Inativos &gt; 90 Dias)</h5>
+      <p>Manutenção preventiva programada com desmontagem técnica para avaliação completa das condições operacionais do equipamento.</p>
+      <strong style="color: var(--copper); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin: 10px 0 6px;">Escopo:</strong>
+      <ul>
+        <li>Desmontagem completa</li>
+        <li>Inspeção dimensional</li>
+        <li>Verificação dos componentes hidráulicos</li>
+        <li>Substituição preventiva de itens de desgaste</li>
+        <li>Troca de vedações</li>
+        <li>Ajustes mecânicos</li>
+        <li>Ensaios hidráulicos</li>
+        <li>Testes de torque em bancada</li>
+        <li>Emissão de relatório técnico detalhado</li>
+      </ul>
+    </div>
+
+    <div class="m-card">
+      <h5>4. Manutenção Anual e Certificação</h5>
+      <p>Inspeção completa com revisão geral, testes de desempenho e certificação técnica dos equipamentos.</p>
+      <strong style="color: var(--copper); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin: 10px 0 6px;">Escopo:</strong>
+      <ul>
+        <li>Revisão geral</li>
+        <li>Desmontagem completa</li>
+        <li>Substituição preventiva dos componentes críticos</li>
+        <li>Ensaios hidráulicos</li>
+        <li>Ensaios de torque na bancada desenvolvida pelo Grupo Setec</li>
+        <li>Registro eletrônico dos parâmetros de ensaio</li>
+        <li>Emissão da curva <em>Pressão × Torque</em></li>
+        <li>Validação funcional</li>
+        <li>Emissão do Certificado de Conformidade</li>
+        <li>Atualização do histórico técnico</li>
+        <li>Identificação do equipamento com etiqueta de certificação</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="m-card" style="margin-top: 16px; border-left: 3px solid var(--copper); background: rgba(180, 110, 60, 0.08);">
+    <h5 style="color: var(--copper); font-size: 0.95rem; margin-bottom: 6px;">Observação Importante</h5>
+    <p style="font-size: 0.88rem; margin: 0; line-height: 1.55;">
+      Sempre que, durante as manutenções <strong>Mensal / Retorno de Embarque</strong>, <strong>Retorno de Projeto</strong> ou <strong>Trimestral</strong>, houver a substituição de componentes críticos que possam alterar o desempenho ou as características operacionais do equipamento, o mesmo será submetido a novos ensaios funcionais e de torque, sendo emitido um novo <strong>Certificado de Conformidade</strong>, garantindo a rastreabilidade e a manutenção da confiabilidade operacional do ativo.
+    </p>
+  </div>
+</div>
+
+<div class="modal-def" id="modal-confiabilidade" hidden>
+  <span class="m-eyebrow">Capítulo 6 · Engenharia de confiabilidade</span>
+  <h3>Cada falha vira dado, cada dado vira decisão</h3>
+  <p class="lead">Metodologia de Reliability Engineering <span class="ac">(Engenharia de Confiabilidade)</span>: compreender as causas das falhas, reduzir sua recorrência e aumentar continuamente a disponibilidade operacional.</p>
+  <p>Indicadores acompanhados: MTBF <span class="ac">(Tempo Médio Entre Falhas)</span> e MTTR <span class="ac">(Tempo Médio de Reparo)</span>.</p>
+  <h4>Classificação das falhas</h4>
+  <div class="m-grid">
+    <div class="m-card"><h5>Mecânicas</h5><span>Eixos, mancais, buchas, parafusos, acoplamentos.</span></div>
+    <div class="m-card"><h5>Hidráulicas</h5><span>Vazamentos, danos em vedações, perda de pressão, contaminação do fluido.</span></div>
+    <div class="m-card"><h5>Operacionais</h5><span>Sobrecarga, operação inadequada, uso fora das especificações.</span></div>
+    <div class="m-card"><h5>Desgaste natural</h5><span>Vida útil dos componentes — esperadas e controladas por preventiva.</span></div>
+  </div>
+  <h4>Investigação da causa raiz</h4>
+  <ul class="cols2"><li>Condições de operação</li><li>Histórico do equipamento</li><li>Frequência das falhas</li><li>Tempo de utilização</li><li>Procedimentos executados</li><li>Estado dos componentes</li></ul>
+  <h4>Banco de dados de falhas</h4>
+  <p>Cada ocorrência registra: equipamento, data, tipo e local da falha, componentes envolvidos, causa identificada, solução, tempo de reparo, custos e recomendações — base para indicadores e análises estatísticas.</p>
+  <h4>Monitoramento da vida útil &amp; engenharia preventiva</h4>
+  <ul class="cols2"><li>Frequência de substituição</li><li>Tempo médio de utilização</li><li>Desgaste acumulado e tendência de falhas</li><li>Intervalos de inspeção por família</li><li>Critérios de substituição de componentes</li><li>Recomendações de armazenamento e transporte</li></ul>
+  <div class="m-flow"><span>Coleta de dados</span><i>→</i><span>Inspeção</span><i>→</i><span>Análise de falhas</span><i>→</i><span>Causa raiz</span><i>→</i><span>Plano de ação</span><i>→</i><span>Melhorias</span><i>→</i><span>Monitoramento</span><i>→</i><span>+ Confiabilidade</span></div>
+</div>
+
+<div class="modal-def" id="modal-dashboard" hidden>
+  <span class="m-eyebrow">Capítulo 4 · Portal do Cliente GS</span>
+  <h3>Dashboard Executivo — SETEC TIP®</h3>
+  <p class="lead">Acompanhamento em tempo real dos indicadores operacionais do contrato, com suporte à tomada de decisão e ao gerenciamento da disponibilidade dos ativos.</p>
+  <h4>Contract status (exemplo · 50 ativos)</h4>
+  <div class="m-grid">
+    <div class="m-card"><div class="m-kpi"><b>50</b></div><span>Equipamentos cadastrados</span></div>
+    <div class="m-card"><div class="m-kpi"><b>47</b></div><span>Disponíveis</span></div>
+    <div class="m-card"><div class="m-kpi"><b>2</b></div><span>Em manutenção</span></div>
+    <div class="m-card"><div class="m-kpi"><b>1</b></div><span>Em teste</span></div>
+    <div class="m-card"><div class="m-kpi"><b>48</b></div><span>Certificados</span></div>
+    <div class="m-card"><div class="m-kpi"><b>100%</b></div><span>SLA atendido</span></div>
+    <div class="m-card"><div class="m-kpi"><b>98,6%</b></div><span>Disponibilidade operacional</span></div>
+    <div class="m-card"><div class="m-kpi"><b>3,4d</b></div><span>Tempo médio de manutenção</span></div>
+  </div>
+  <h4>Status da frota</h4>
+  <ul><li><strong>94%</strong> disponíveis · <strong>4%</strong> em manutenção · <strong>2%</strong> em testes</li></ul>
+  <h4>Ordens de serviço</h4>
+  <ul class="cols2"><li>Abertas: <strong>3</strong></li><li>Em andamento: <strong>2</strong></li><li>Concluídas: <strong>187</strong></li><li>Aguardando peças: <strong>1</strong></li></ul>
+  <h4>Indicadores acompanhados</h4>
+  <ul class="cols2"><li>MTBF <span class="ac">(Tempo Médio Entre Falhas)</span></li><li>MTTR <span class="ac">(Tempo Médio de Reparo)</span></li><li>SLA <span class="ac">(Acordo de Nível de Serviço)</span></li><li>Disponibilidade</li><li>Equipamentos certificados</li><li>Custos por ativo</li><li>Histórico de falhas</li></ul>
+</div>
+
+<div class="modal-def" id="modal-historico" hidden>
+  <span class="m-eyebrow">Portal GS · Ativo BH-HST-0018</span>
+  <h3>Histórico permanente do equipamento</h3>
+  <p class="lead">Cada ativo possui um cadastro individual com todas as informações técnicas, histórico operacional, certificados e documentação associada — consultável por QR Code.</p>
+  <div class="m-grid">
+    <div class="m-card"><h5>Identificação</h5><span>BH-HST-0018 · Hydraulic Torque Tool · Baker Hughes · Série BH4589211</span></div>
+    <div class="m-card"><h5>Status</h5><span><span class="dot"></span>Operacional · Disponibilidade 99% · 2.348 horas</span></div>
+    <div class="m-card"><h5>Manutenção</h5><span>Última 15/08/2026 · Próxima 15/02/2027 · Base Macaé</span></div>
+    <div class="m-card"><h5>Certificados</h5><span>Calibration · Inspection · Maintenance Report</span></div>
+  </div>
+  <h4>Registro de intervenções</h4>
+  <table><thead><tr><th>Data</th><th>Serviço</th><th>Técnico</th><th>Resultado</th></tr></thead>
+    <tbody>
+      <tr><td>10/02/26</td><td>Inspeção</td><td>João</td><td><span class="dot"></span>OK</td></tr>
+      <tr><td>11/02/26</td><td>Desmontagem</td><td>Marcos</td><td><span class="dot"></span>OK</td></tr>
+      <tr><td>12/02/26</td><td>Substituição de vedação</td><td>Carlos</td><td><span class="dot"></span>OK</td></tr>
+      <tr><td>13/02/26</td><td>Teste hidráulico</td><td>Paulo</td><td><span class="dot"></span>OK</td></tr>
+      <tr><td>13/02/26</td><td>Certificação</td><td>Engenharia</td><td><span class="dot"></span>Aprovado</td></tr>
+    </tbody></table>
+  <div class="m-flow"><span>Recebimento</span><i>→</i><span>Inspeção</span><i>→</i><span>Desmontagem</span><i>→</i><span>Limpeza</span><i>→</i><span>Montagem</span><i>→</i><span>Teste</span><i>→</i><span>Certificação</span><i>→</i><span>Entrega</span></div>
+</div>
+
+<div class="modal-def" id="modal-sla" hidden>
+  <span class="m-eyebrow">Portal GS · Controle de SLA</span>
+  <h3>Desempenho contratual em tempo real</h3>
+  <p>SLA <span class="ac">(Acordo de Nível de Serviço)</span> — o compromisso de prazo e execução da Setec.</p>
+  <div class="m-grid">
+    <div class="m-card"><div class="m-kpi"><b>100%</b></div><span>Prazo contratual cumprido</span></div>
+    <div class="m-card"><div class="m-kpi"><b>98%</b></div><span>Ordens dentro do SLA</span></div>
+    <div class="m-card"><div class="m-kpi"><b>3,2d</b></div><span>Tempo médio (meta 5 dias)</span></div>
+  </div>
+  <h4>Indicadores monitorados</h4>
+  <ul class="cols2"><li class="ok">SLA geral</li><li class="ok">Tempo médio</li><li class="ok">Disponibilidade</li><li class="ok">Conformidade</li><li class="ok">Certificações</li></ul>
+  <p>O sistema permite acompanhamento contínuo do desempenho contratual e dos indicadores de atendimento. Disponível também no aplicativo mobile — consulta rápida por QR Code de certificados, relatórios, histórico e fotos direto no dispositivo.</p>
+</div>
+
+<div class="modal-def" id="modal-kpis" hidden>
+  <span class="m-eyebrow">Capítulo 8 · KPIs &amp; SLAs</span>
+  <h3>Indicadores de performance e metas</h3>
+  <p>KPI <span class="ac">(Indicador-Chave de Desempenho)</span> · SLA <span class="ac">(Acordo de Nível de Serviço)</span></p>
+  <table><thead><tr><th>KPI</th><th>Meta</th><th>Resultado</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Disponibilidade Operacional</td><td>≥ 98%</td><td>99,2%</td><td><span class="dot"></span></td></tr>
+      <tr><td>SLA cumprido <span class="ac">(Acordo de Nível de Serviço)</span></td><td>≥ 95%</td><td>98,7%</td><td><span class="dot"></span></td></tr>
+      <tr><td>MTTR <span class="ac">(Tempo Médio de Reparo)</span></td><td>≤ 4 dias</td><td>3,1 dias</td><td><span class="dot"></span></td></tr>
+      <tr><td>MTBF <span class="ac">(Tempo Médio Entre Falhas)</span></td><td>Tendência crescente</td><td>+14%</td><td><span class="dot"></span></td></tr>
+      <tr><td>Retrabalho</td><td>≤ 2%</td><td>0,8%</td><td><span class="dot"></span></td></tr>
+      <tr><td>Aprovação na 1ª inspeção</td><td>≥ 95%</td><td>—</td><td><span class="dot"></span></td></tr>
+      <tr><td>Certificados emitidos no prazo</td><td>100%</td><td>100%</td><td><span class="dot"></span></td></tr>
+      <tr><td>Não Conformidades Críticas</td><td>0</td><td>0</td><td><span class="dot"></span></td></tr>
+      <tr><td>Satisfação do Cliente</td><td>≥ 95%</td><td>98%</td><td><span class="dot"></span></td></tr>
+    </tbody></table>
+  <h4>Matriz de prioridade de atendimento</h4>
+  <table><thead><tr><th>Criticidade</th><th>Tipo</th><th>Prazo máximo</th></tr></thead>
+    <tbody>
+      <tr><td><span class="m-num">Crítica</span></td><td>Equipamento essencial para operação</td><td>Até 48h — diagnóstico e plano de ação</td></tr>
+      <tr><td>Alta</td><td>Equipamento estratégico</td><td>Conforme cronograma acordado</td></tr>
+      <tr><td>Programada</td><td>Manutenção preventiva</td><td>Conforme planejamento mensal</td></tr>
+      <tr><td>Baixa</td><td>Serviços eletivos</td><td>Conforme disponibilidade operacional</td></tr>
+    </tbody></table>
+  <p>Os KPIs são divididos em cinco grupos: Operacionais, Confiabilidade, Qualidade, Atendimento e Gerenciais — consolidados em relatórios gerenciais e no Dashboard Executivo.</p>
+</div>
+
+<div class="modal-def" id="modal-qualidade" hidden>
+  <span class="m-eyebrow">Capítulo 7 · Gestão da qualidade</span>
+  <h3>Qualidade presente em todas as etapas</h3>
+  <p class="lead">Abordagem preventiva: processos padronizados, procedimentos documentados e controles operacionais que garantem repetibilidade, rastreabilidade e conformidade em cada intervenção.</p>
+  <h4>Como a qualidade é assegurada</h4>
+  <ul class="cols2"><li>Procedimentos Operacionais Padronizados (POPs)</li><li>Instruções Técnicas para operações críticas</li><li>Checklists por fase (recebimento → final)</li><li>Controle de documentos e revisões</li><li>Controle metrológico dos instrumentos</li><li>Auditorias internas periódicas</li></ul>
+  <h4>Controle de não conformidades</h4>
+  <p>Toda condição fora dos critérios abre uma NC com: descrição, evidências, responsável, causa, ação corretiva, ação preventiva e data de encerramento — tratada por ações corretivas e preventivas para eliminar a causa.</p>
+  <h4>Rastreabilidade — dossiê eletrônico por ativo</h4>
+  <ul class="cols2"><li>Ordem de Serviço</li><li>Fotografias</li><li>Checklists</li><li>Relatórios técnicos</li><li>Resultados dos testes</li><li>Certificados</li><li>Histórico das intervenções</li><li>Aprovação da Qualidade</li></ul>
+  <h4>Indicadores da qualidade</h4>
+  <ul class="cols2"><li>Índice de conformidade das inspeções</li><li>Percentual de retrabalho</li><li>Número de não conformidades</li><li>Tempo de resposta para tratamento de NC</li><li>Taxa de aprovação nos testes</li><li>Índice de satisfação do cliente</li></ul>
+</div>
+
+<div class="modal-def" id="modal-governanca" hidden>
+  <span class="m-eyebrow">Capítulo 9 · Estrutura &amp; governança</span>
+  <h3>Estrutura organizacional e governança do contrato</h3>
+  <div class="m-flow"><span>Diretor Executivo</span><i>→</i><span>Gerente de Operações / Contrato</span><i>→</i><span>Engenharia · Qualidade · PCM</span><i>→</i><span>Supervisor Técnico</span><i>→</i><span>Técnicos · Inspetores · Documentação</span></div>
+  <h4>Papéis principais</h4>
+  <div class="m-grid">
+    <div class="m-card"><h5>Diretor Executivo</h5><span>Supervisão estratégica, recursos e avaliação de resultados.</span></div>
+    <div class="m-card"><h5>Gerente do Contrato</h5><span>Ponto focal; coordena atividades, cronogramas, SLAs e riscos.</span></div>
+    <div class="m-card"><h5>Engenharia</h5><span>Procedimentos, critérios técnicos, análise de falhas e confiabilidade.</span></div>
+    <div class="m-card"><h5>PCM</h5><span>Programação de OS, prazos, recursos e indicadores operacionais.</span></div>
+    <div class="m-card"><h5>Qualidade</h5><span>Inspeção final independente, auditorias e controle documental.</span></div>
+    <div class="m-card"><h5>Responsável Técnico</h5><span>Supervisão técnica e emissão de ART <span class="ac">(Anotação de Responsabilidade Técnica)</span> quando aplicável.</span></div>
+  </div>
+  <h4>Matriz de responsabilidades (RACI)</h4>
+  <table><thead><tr><th>Atividade</th><th>Diretor</th><th>Gerente</th><th>Eng.</th><th>PCM</th><th>Qual.</th><th>Superv.</th></tr></thead>
+    <tbody>
+      <tr><td>Planejamento do Contrato</td><td>A</td><td>R</td><td>C</td><td>R</td><td>I</td><td>I</td></tr>
+      <tr><td>Recebimento dos Equipamentos</td><td>I</td><td>C</td><td>I</td><td>R</td><td>C</td><td>R</td></tr>
+      <tr><td>Inspeção Técnica</td><td>I</td><td>I</td><td>C</td><td>I</td><td>C</td><td>R</td></tr>
+      <tr><td>Manutenção</td><td>I</td><td>C</td><td>C</td><td>I</td><td>I</td><td>R</td></tr>
+      <tr><td>Certificação</td><td>I</td><td>C</td><td>C</td><td>I</td><td>R</td><td>I</td></tr>
+      <tr><td>Reuniões com o Cliente</td><td>A</td><td>R</td><td>C</td><td>C</td><td>C</td><td>I</td></tr>
+    </tbody></table>
+  <p><strong>R</strong> Responsável · <strong>A</strong> Aprovador · <strong>C</strong> Consultado · <strong>I</strong> Informado. Governança em 5 pilares: liderança técnica, planejamento, controle operacional, gestão da qualidade e engenharia de melhoria contínua.</p>
+  <h4>Capacitação contínua da equipe</h4>
+  <ul class="cols2"><li>Atualização em normas técnicas</li><li>Treinamentos internos</li><li>Procedimentos operacionais</li><li>Segurança do trabalho</li><li>Metrologia</li><li>Boas práticas de manutenção</li><li>Gestão da qualidade</li><li>Engenharia de confiabilidade</li></ul>
+</div>
+
+<div class="modal-def" id="modal-contempla" hidden>
+  <span class="m-eyebrow">Capítulo 10 · O que o investimento contempla</span>
+  <h3>R$ 27.600 / ativo·mês — uma estrutura completa</h3>
+  <p class="lead">Prestação continuada de serviços; mínimo de 10 ativos. Cada ativo incluído no programa conta com:</p>
+  <div class="m-grid">
+    <div class="m-card"><h5>Gestão Técnica</h5><span>Cadastro individual · histórico permanente · gestão documental · controle do ciclo de vida · rastreabilidade completa.</span></div>
+    <div class="m-card"><h5>Engenharia</h5><span>Engenharia de Confiabilidade · diagnóstico · análise de falhas · parecer técnico · estudos de melhoria.</span></div>
+    <div class="m-card"><h5>Planejamento</h5><span>Planejamento das manutenções · PCM dedicado · controle dos cronogramas · gestão das OS.</span></div>
+    <div class="m-card"><h5>Manutenção</h5><span>Inspeções · preventiva · corretiva programada · desmontagem · montagem · limpeza · ajustes mecânicos.</span></div>
+    <div class="m-card"><h5>Testes</h5><span>Testes hidráulicos · funcionais · operacionais · verificação de estanqueidade.</span></div>
+    <div class="m-card"><h5>Qualidade</h5><span>Controle da qualidade · auditorias · controle metrológico · aprovação técnica.</span></div>
+    <div class="m-card"><h5>Documentação</h5><span>Certificados · relatórios técnicos · histórico fotográfico · banco de dados técnico.</span></div>
+    <div class="m-card"><h5>Gestão Digital</h5><span>QR Code · Dashboard Executivo · KPIs · gestão de SLAs · indicadores · histórico permanente.</span></div>
+  </div>
+  <h4>Referência financeira</h4>
+  <table><thead><tr><th>Ativos</th><th>Mensal</th><th>Anual</th></tr></thead>
+    <tbody>
+      <tr><td>10 (mínimo)</td><td>R$ 276.000</td><td>R$ 3.312.000</td></tr>
+      <tr><td>20</td><td>R$ 552.000</td><td>R$ 6.624.000</td></tr>
+      <tr><td>30</td><td>R$ 828.000</td><td>R$ 9.936.000</td></tr>
+      <tr><td>40</td><td>R$ 1.104.000</td><td>R$ 13.248.000</td></tr>
+      <tr><td>50 (capacidade)</td><td>R$ 1.380.000</td><td>R$ 16.560.000</td></tr>
+    </tbody></table>
+  <h4>Valor entregue — muito mais que manutenção</h4>
+  <p>Por R$ 27.600/ativo·mês, a Baker Hughes recebe uma estrutura permanente de gestão de ativos:</p>
+  <ul class="cols2"><li class="ok">Engenharia especializada</li><li class="ok">Planejamento e Controle da Manutenção (PCM)</li><li class="ok">Gestão da integridade do ativo</li><li class="ok">Engenharia de confiabilidade</li><li class="ok">Sistema digital de gestão</li><li class="ok">Dashboard Executivo e KPIs</li><li class="ok">Gestão dos SLAs</li><li class="ok">Banco de dados técnico</li><li class="ok">QR Code individual</li><li class="ok">Controle da qualidade</li><li class="ok">Certificação técnica e relatórios</li><li class="ok">Histórico permanente</li><li class="ok">Suporte técnico especializado</li><li class="ok">Reuniões gerenciais e de performance</li></ul>
+</div>
+
+<div class="modal-def" id="modal-nao-contemplado" hidden>
+  <span class="m-eyebrow">Capítulo 10 · Escopo</span>
+  <h3>Serviços não contemplados no investimento</h3>
+  <p class="lead">Sempre que identificada a necessidade de qualquer um destes serviços, será emitido relatório técnico com orçamento específico para aprovação prévia da Baker Hughes.</p>
+  <ul>
+    <li>Fornecimento de peças e componentes</li>
+    <li>Componentes hidráulicos de alto valor</li>
+    <li>Recuperações estruturais especiais</li>
+    <li>Soldagens especiais</li>
+    <li>Usinagem externa</li>
+    <li>Alterações de projeto</li>
+    <li>Atualizações determinadas pelo fabricante</li>
+    <li>Danos ocasionados por acidentes ou uso inadequado</li>
+    <li>Mobilizações offshore não previstas</li>
+    <li>Atendimentos emergenciais em campo (contratados separadamente)</li>
+  </ul>
+  <h4>Flexibilidade contratual</h4>
+  <p>Novos ativos podem ser incorporados (ou desmobilizados) ao longo da vigência, mediante atualização cadastral, mantendo as mesmas condições técnicas e comerciais desta proposta.</p>
+</div>
+
+<div class="modal-def" id="modal-interno" hidden>
+  <span class="m-eyebrow">Capítulo 10 · Comparativo de valor</span>
+  <h3>Quanto custaria manter essa estrutura internamente?</h3>
+  <p class="lead">Para obter uma estrutura equivalente ao TIP®, seria necessário contratar profissionais especializados, implantar sistemas de gestão e manter infraestrutura técnica dedicada.</p>
+  <table><thead><tr><th>Recurso</th><th>Custo médio mensal (referencial)</th></tr></thead>
+    <tbody>
+      <tr><td>Engenheiro de Confiabilidade</td><td>R$ 18.000</td></tr>
+      <tr><td>Planejador PCM</td><td>R$ 10.000</td></tr>
+      <tr><td>Supervisor Técnico</td><td>R$ 14.000</td></tr>
+      <tr><td>Inspetor Técnico</td><td>R$ 9.000</td></tr>
+      <tr><td>Sistema de Gestão</td><td>R$ 5.000</td></tr>
+      <tr><td>Controle da Qualidade</td><td>R$ 8.000</td></tr>
+      <tr><td>Documentação Técnica</td><td>R$ 6.000</td></tr>
+      <tr><td>Infraestrutura Administrativa</td><td>R$ 10.000</td></tr>
+      <tr><td><strong>Total estimado (salários-base)</strong></td><td><span class="m-num">R$ 80.000 / mês</span></td></tr>
+    </tbody></table>
+  <p>Valores de mercado usados apenas para demonstrar a estrutura normalmente necessária.</p>
+  <h4>Custo real com encargos e benefícios</h4>
+  <p>Os valores acima referem-se apenas a salários-base. Considerando <strong>encargos trabalhistas e benefícios associados</strong>, o custo de uma estrutura interna equivalente pode chegar a <strong>~80% a mais</strong>:</p>
+  <table><tbody>
+    <tr><td>Salários-base (estimativa)</td><td>R$ 80.000 / mês</td></tr>
+    <tr><td>+ Encargos trabalhistas e benefícios (~80%)</td><td>R$ 64.000 / mês</td></tr>
+    <tr><td><strong>Custo real estimado</strong></td><td><span class="m-num">R$ 144.000 / mês</span></td></tr>
+  </tbody></table>
+  <p>Ou seja: além da complexidade de montar e manter a estrutura, o custo interno real supera com folga o investimento do TIP® — com toda a engenharia, gestão e tecnologia já inclusas.</p>
+  <h4>Modelo tradicional × TIP®</h4>
+  <table><thead><tr><th>Modelo tradicional</th><th>Programa TIP®</th></tr></thead>
+    <tbody>
+      <tr><td>Manutenção corretiva</td><td>Gestão contínua do ativo</td></tr>
+      <tr><td>Histórico limitado</td><td>Histórico permanente</td></tr>
+      <tr><td>Baixa rastreabilidade</td><td>QR Code individual</td></tr>
+      <tr><td>Atuação após a falha</td><td>Planejamento preventivo</td></tr>
+      <tr><td>Custos imprevisíveis</td><td>Previsibilidade orçamentária</td></tr>
+      <tr><td>Sem indicadores</td><td>KPIs e dashboards</td></tr>
+      <tr><td>Controle manual</td><td>Gestão digital integrada</td></tr>
+      <tr><td>Foco na manutenção</td><td>Foco na disponibilidade operacional</td></tr>
+    </tbody></table>
+</div>
+
+<div class="modal-def" id="modal-beneficios" hidden>
+  <span class="m-eyebrow">Capítulos 1 e 10 · Benefícios</span>
+  <h3>O que a Baker Hughes ganha com o TIP®</h3>
+  <p class="lead">Mais do que um serviço de manutenção, a Baker Hughes recebe uma estrutura permanente de gestão de ativos, com ganhos operacionais e estratégicos diretos.</p>
+  <h4>Benefícios operacionais</h4>
+  <ul class="cols2">
+    <li>Maior disponibilidade dos equipamentos</li>
+    <li>Redução significativa de paradas não programadas</li>
+    <li>Diminuição dos custos com manutenção corretiva</li>
+    <li>Aumento da vida útil dos ativos</li>
+    <li>Padronização dos processos de manutenção</li>
+    <li>Histórico técnico individualizado por equipamento</li>
+    <li>Controle documental centralizado</li>
+    <li>Rastreabilidade completa por QR Code</li>
+    <li>Emissão de certificados e relatórios técnicos</li>
+    <li>Indicadores de desempenho em tempo real</li>
+    <li>Gestão da integridade baseada em engenharia</li>
+    <li>Maior previsibilidade operacional</li>
+    <li>Suporte técnico especializado</li>
+    <li>Conformidade com auditorias internas e externas</li>
+  </ul>
+  <h4>Benefícios estratégicos</h4>
+  <ul class="cols2">
+    <li>Maior previsibilidade orçamentária</li>
+    <li>Ampliação da vida útil dos equipamentos</li>
+    <li>Redução do custo total de propriedade (TCO)</li>
+    <li>Gestão técnica baseada em indicadores</li>
+    <li>Rastreabilidade completa do histórico dos ativos</li>
+    <li>Apoio à tomada de decisão por dados confiáveis</li>
+  </ul>
+</div>
+
+<div class="modal-def" id="modal-app" hidden>
+  <span class="m-eyebrow">Portal GS · Mockup 06 · Aplicativo mobile</span>
+  <h3>Rastreabilidade na palma da mão</h3>
+  <p class="lead">Os equipamentos podem ser consultados diretamente em dispositivos móveis, com acesso rápido às informações técnicas, certificados e histórico de manutenção.</p>
+  <div class="m-grid">
+    <div class="m-card"><h5>Pesquisar equipamento</h5><span>Busca por identificação — ex.: BH-HST-0018.</span></div>
+    <div class="m-card"><h5>Status</h5><span><span class="dot"></span>Operacional</span></div>
+    <div class="m-card"><h5>Última inspeção</h5><span>15/08/2026</span></div>
+    <div class="m-card"><h5>Próxima</h5><span>15/02/2027</span></div>
+  </div>
+  <h4>Ações disponíveis no app</h4>
+  <ul class="cols2">
+    <li>Abrir Certificado</li>
+    <li>Abrir Relatório</li>
+    <li>Histórico de intervenções</li>
+    <li>Fotos do equipamento</li>
+    <li>Leitura de QR Code</li>
+    <li>Consulta de KPIs</li>
+  </ul>
+  <p>O acesso móvel complementa o Portal do Cliente GS e o Dashboard Executivo, disponíveis durante toda a vigência contratual.</p>
+</div>
+
+
+
+<script type="module" src="js/main.js?v=3"></script>
+</body>
+</html>

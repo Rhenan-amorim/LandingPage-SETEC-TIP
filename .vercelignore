@@ -1,0 +1,12 @@
+# Arquivos de trabalho / não usados em runtime — não subir pro Vercel
+assets_gerados/videos/raw
+assets_gerados/frames
+assets_gerados/GENERATION_MANIFEST.json
+fotos_origem
+vendor
+.claude
+node_modules
+BRIEFING.md
+PROMPT_CLAUDE_CODE.md
+README_DEPLOY.md
+README.md

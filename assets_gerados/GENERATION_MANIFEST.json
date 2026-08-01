@@ -1,0 +1,48 @@
+{
+  "note": "Higgsfield (server fa7b21d6) Seedance 2.0 pipeline. Todos os vídeos 1080p, 16:9, MUDOS (generate_audio:false). Voo 1->2->3 seam-locked: v1 = V1(hero)+C1(conector) concatenados; v3 parte do último frame de V2.",
+  "model_video": "seedance_2_0 (1080p, std, 16:9, generate_audio:false)",
+  "model_image": "nano_banana_pro (16:9, 1k)",
+  "plates_uploaded_media_id": {
+    "plate_05_container_(V1)":  "83ae1181-e80b-4338-a30a-f41e0671d18d",
+    "plate_06_crp_closeup_(V2)":"dbe066fe-ff92-4cbb-9513-aa805f26cb54",
+    "plate_04_kit_container_(V11)":"bbb10217-78b8-4d2b-aa04-cc3db524e727",
+    "plate_03_crp_carrinho_(V4)":"0bc7acd7-1d85-465f-b880-d02fc59eef4d",
+    "plate_02_crp_carrinho_a":"ded549be-64d6-4c55-ade1-746499884298"
+  },
+  "seam_frames_media_id": {
+    "V2_last_(inicio_V3)": "099f1cda-137b-46e4-9c73-ba121729d2e4",
+    "V1_last_(inicio_C1)": "5585489a-085a-482f-a1c5-bb81c5a845a6",
+    "V2_first_(fim_C1)":   "180a6c0b-d77f-41e7-bb4d-736ea3cca1c9"
+  },
+  "stills_generated_job_id": {
+    "V5_bench":     "75a50d30-8151-416c-aed2-0b7202538727",
+    "V6_ring":      "9535baa1-09d2-4f3e-ad5a-7913d6c54b6f",
+    "V7_digital":   "df9a7af8-9eab-4f8a-83c8-481fbe2f347f",
+    "V8_scorecard": "0727ec65-92d4-4954-acf8-c5c0d4cc7a41"
+  },
+  "videos_job_id": {
+    "V1_hero":     "b99b1541-6b68-497d-8cc5-22a8baa3274a",
+    "V2_problema": "bbd2a882-a4ba-4405-913d-32f54332fc7e",
+    "V3_virada":   "e5444d1b-e704-4a6d-9ea0-25d95bbdf810",
+    "V4_jornada":  "b19f06fe-04ce-44b5-aa70-f4985b0751f7",
+    "V5_bancada":  "fa818b8e-14f4-43f0-8386-0649f010be77",
+    "V6_confiabilidade": "3da530a8-83f8-402f-b1b9-c7496c0d8f66",
+    "V7_digital":  "e91f5006-9a13-49b8-be4e-1330d306eb20",
+    "V8_resultados":"bb612ebe-7d54-4e59-932e-c6aec6bbde06",
+    "V11_fecho":   "2a67b570-b811-454d-a7a3-8ba8deef4b0b",
+    "C1_conector_V1_V2": "6028d963-cf9c-4dd3-8a8a-06b5af1c3b26"
+  },
+  "final_files": {
+    "assets_gerados/videos/v1.mp4": "V1 + C1 (hero->workshop), 11s",
+    "assets_gerados/videos/v2.mp4": "problema, 5s",
+    "assets_gerados/videos/v3.mp4": "virada, 5s (seam de V2)",
+    "assets_gerados/videos/v4.mp4": "jornada, 8s",
+    "assets_gerados/videos/v5.mp4": "bancada, 7s",
+    "assets_gerados/videos/v6.mp4": "confiabilidade, 5s",
+    "assets_gerados/videos/v7.mp4": "digital, 6s",
+    "assets_gerados/videos/v8.mp4": "resultados, 4s",
+    "assets_gerados/videos/v11.mp4": "fecho, 6s"
+  },
+  "fase": "DESKTOP 16:9 concluída. Cadeia mobile 9:16 NÃO gerada (fase futura).",
+  "encode": "libx264 high, crf 21, -g 8 (scrub), yuv420p, +faststart, sem áudio."
+}
